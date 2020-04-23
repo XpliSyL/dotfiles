@@ -4,6 +4,10 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias cd..="cd .."
+alias do="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias d="cd ~/Desktop"
+alias p="cd ~/projects"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
