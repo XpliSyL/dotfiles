@@ -8,6 +8,17 @@ alias do="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias d="cd ~/Desktop"
 alias p="cd ~/projects"
+alias rr="source ~/.bash_profile"
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nup="npm update"
+alias nri="rm -r node_modules && npm install"
+alias ncd="npm-check -su"
+alias ipl="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
+alias speed="wget -O /dev/null http://speed.transip.nl/100mb.bin"
+alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'
+
+
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -16,7 +27,7 @@ alias c="clear"
 alias ch="history -c && > ~/.bash_history"
 alias e="vim --"
 alias g="git"
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
 alias ll="ls -l"
 alias m="man"
 alias map="xargs -n1"
