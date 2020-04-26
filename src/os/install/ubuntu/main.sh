@@ -12,7 +12,6 @@ upgrade
 ./build-essentials.sh
 
 ./git.sh
-./../nvm.sh
 ./compression_tools.sh
 ./image_tools.sh
 ./misc.sh
