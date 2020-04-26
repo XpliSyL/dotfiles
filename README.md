@@ -1,7 +1,7 @@
 [XpliSyl][repo]’s dotfiles
 ==========================
 
-| `Ubuntu` | `bash -c "$(wget -qO - https://raw.github.com/XpliSyl/dotfiles/master/src/os/setup.sh)"` |
+`bash -c "$(wget -qO - https://raw.github.com/XpliSyl/dotfiles/master/src/os/setup.sh)"`
 
 That's it! ✨
 
