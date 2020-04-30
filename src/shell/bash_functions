@@ -38,24 +38,24 @@ delete-files() {
 
 # Execute Vim macro
 
-evm() {
+# evm() {
 
-    local numberOfTimes="${*: -1}"
-    local files
+#    local numberOfTimes="${*: -1}"
+#    local files
 
-    if [[ "$numberOfTimes" =~ ^[0-9]+$ ]]; then
-        files=("${@:1:$#-1}")
-    else
-        numberOfTimes="1"
-        files=("$@")
-    fi
+#    if [[ "$numberOfTimes" =~ ^[0-9]+$ ]]; then
+#        files=("${@:1:$#-1}")
+#    else
+#        numberOfTimes="1"
+#        files=("$@")
+#    fi
 
-    for file in "${files[@]}"; do
-        printf "* %s\n" "$file"
-        vim -c "norm! $numberOfTimes@q" -c "wq" "$file"
-    done
+#    for file in "${files[@]}"; do
+#        printf "* %s\n" "$file"
+#        vim -c "norm! $numberOfTimes@q" -c "wq" "$file"
+#    done
 
-}
+# }
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
